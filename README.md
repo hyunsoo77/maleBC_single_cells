@@ -1,6 +1,6 @@
 # maleBC_single_cells
 
-This repository is for male breast cancer scRNA-seq and scATAC-seq data processing and generation of figures.
+This repository is for male breast cancer scRNA-seq and scATAC-seq data processing and figure generation.
 
 The general flow of data processing and figure generation is (1) scRNA-seq data processing from 10x Genomics scRNA-seq FASTQ files, (2) scATAC-seq data processing from 10x Genomics scATAC-seq FASTQ files, (3) figure generation.
 
@@ -29,6 +29,8 @@ Step 2: Make the following directoy structure with copy or link.
     └── outs
         └── filtered_feature_bc_matrix.h5
 ```
+Patient 1 maps to 446B7L and Patient 2 maps to 4CC61L.
+
 
 Step 3: Make Seurat object for each sample with the following command:
 
