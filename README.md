@@ -29,7 +29,7 @@ Step 2: Make the following directoy structure with copy or link.
     └── outs
         └── filtered_feature_bc_matrix.h5
 ```
-Patient 1 maps to 446B7L and patient 2 maps to 4CC61L.
+Patient 1 maps to 446B7L, and patient 2 maps to 4CC61L.
 
 
 Step 3: Make Seurat object for each sample with the following command:
